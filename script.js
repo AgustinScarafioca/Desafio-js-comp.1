@@ -2,13 +2,12 @@
 //Teniendo en cuenta que estamos hablando de una tienda. 
 
 
-alert("Bienvenido a esta tienda, por favor ingrese hasta 10 productos para llevar")
+alert("Bienvenido a esta tienda, por favor ingrese hasta 5 productos para llevar")
 
-let producto
-
+let producto = ""
 
 //For
-for (i=0; i < 10; i++){
+for (i=0; i < 5; i++){
     producto  += prompt("Ingrese el producto") + ", "
 }
 alert ("Los productos elegidos son" + " " +  producto)
